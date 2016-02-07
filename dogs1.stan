@@ -1,6 +1,8 @@
 data {
   int<lower=0> n_dogs;
   int<lower=0> n_trials;
+//simply adding a comment line to learn how to git commit using windows gui client
+
   int<lower=0,upper=1> y[n_dogs,n_trials];
 }
 parameters {
